@@ -13,4 +13,3 @@ chart-dirs:
 
 chart-repos:
   - bitnami=https://charts.bitnami.com/bitnami
-  - tomroush=https://tomroush.github.io/helm-charts
