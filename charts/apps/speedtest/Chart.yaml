@@ -17,7 +17,7 @@ maintainers:
   email: tom@tom-roush.com
 annotations:
   artifacthub.io/changes: |
-    - kind: remove
+    - kind: removed
       description: Remove library chart release
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/images: |
