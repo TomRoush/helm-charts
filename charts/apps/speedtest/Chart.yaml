@@ -1,6 +1,6 @@
 apiVersion: v2
 name: speedtest
-version: 3.0.9
+version: 3.0.10
 appVersion: 2.0.0
 kubeVersion: ">= 1.19.0-0"
 description: periodic speedtest and save the results to InfluxDB
@@ -18,7 +18,7 @@ maintainers:
 annotations:
   artifacthub.io/changes: |
     - kind: fixed
-      description: Uppercase repo name fails to push
+      description: Push script fails
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/images: |
     - name: speedtest
