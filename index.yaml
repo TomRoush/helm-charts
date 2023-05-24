@@ -4,6 +4,40 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: Push script fails
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/images: |
+        - name: speedtest
+          image: tomroush/speedtest-for-influxdb-and-grafana:2.0.0
+      artifacthub.io/links: |
+        - name: source
+          url: https://github.com/TomRoush/Speedtest-for-InfluxDB-and-Grafana
+        - name: support
+          url: https://github.com/TomRoush/Speedtest-for-InfluxDB-and-Grafana/issues
+    apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-05-24T06:49:52.736033495Z"
+    description: periodic speedtest and save the results to InfluxDB
+    digest: 5b303799e7bc1e305a40663446f011ef9db2aeb1442248865e69064262efe472
+    home: https://github.com/TomRoush/helm-ccharts/tree/main/charts/apps/speedtest
+    icon: https://i.imgur.com/nDYjKk8.png
+    keywords:
+    - speedtest
+    - influxdb
+    - grafana
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: tom@tom-roush.com
+      name: TomRoush
+    name: speedtest
+    sources:
+    - https://github.com/TomRoush/Speedtest-for-InfluxDB-and-Grafana
+    urls:
+    - https://tomroush.github.io/helm-charts/apps/speedtest-3.0.10.tgz
+    version: 3.0.10
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: Uppercase repo name fails to push
       artifacthub.io/containsSecurityUpdates: "true"
       artifacthub.io/images: |
@@ -16,7 +50,7 @@ entries:
           url: https://github.com/TomRoush/Speedtest-for-InfluxDB-and-Grafana/issues
     apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-05-24T06:42:13.892950866Z"
+    created: "2023-05-24T06:49:52.736892494Z"
     description: periodic speedtest and save the results to InfluxDB
     digest: 869febc4c3aaa4e976f4554452a36d78f38083074bab5a6afb0ce73aa6b0d7a1
     home: https://github.com/TomRoush/helm-ccharts/tree/main/charts/apps/speedtest
@@ -50,7 +84,7 @@ entries:
           url: https://github.com/TomRoush/Speedtest-for-InfluxDB-and-Grafana/issues
     apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-05-24T06:42:13.892191258Z"
+    created: "2023-05-24T06:49:52.736493594Z"
     description: periodic speedtest and save the results to InfluxDB
     digest: 3a419dc7b7e79fdcf1153e2f9214c0b7d873b86207c0dcff3e76a4de26712180
     home: https://github.com/TomRoush/helm-ccharts/tree/main/charts/apps/speedtest
@@ -69,4 +103,4 @@ entries:
     urls:
     - https://tomroush.github.io/helm-charts/apps/speedtest-3.0.8.tgz
     version: 3.0.8
-generated: "2023-05-24T06:42:13.890982147Z"
+generated: "2023-05-24T06:49:52.735383495Z"
