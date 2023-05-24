@@ -17,8 +17,8 @@ maintainers:
   email: tom@tom-roush.com
 annotations:
   artifacthub.io/changes: |
-    - kind: added
-      description: Support for InfluxDB v2
+    - kind: changed
+      description: Fake fix
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/images: |
     - name: speedtest
