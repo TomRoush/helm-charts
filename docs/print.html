@@ -164,7 +164,7 @@ This repo is <strong>not</strong> intended to be a replacement for any of the la
 <p>The Helm repository can be installed as follows:</p>
 <pre><code class="language-console">helm repo add tomroush https://tomroush.github.io/helm-charts
 </code></pre>
-<p>You can then run <code>helm search repo bjw-s</code> to search the charts.</p>
+<p>You can then run <code>helm search repo tomroush</code> to search the charts.</p>
 <hr />
 <h2 id="how-do-i-find-people-running-these-charts"><a class="header" href="#how-do-i-find-people-running-these-charts">How do I find people running these charts?</a></h2>
 <h3 id="discord"><a class="header" href="#discord">Discord</a></h3>
@@ -219,7 +219,7 @@ create a library. This means each one of these app charts has a
 dependency on what we call the <code>common</code> library.</p>
 <h2 id="source-code"><a class="header" href="#source-code">Source code</a></h2>
 <p>The source code for the common library chart can be found
-<a href="https://github.com/TomRoush/helm-charts/tree/main/charts/library/common">here</a>.</p>
+<a href="https://github.com/bjw-s/helm-charts/tree/main/charts/library/common">here</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="common-library-add-ons"><a class="header" href="#common-library-add-ons">Common library add-ons</a></h1>
 <p>The common library chart supplies a few add-ons which are meant to simplify some features
 you might be looking for. These are sidecars that run in the same pod as your
@@ -554,7 +554,7 @@ and its <a href="https://github.com/TomRoush/helm-charts/tree/main/charts/librar
 more information about the available configuration options.</p>
 <h4 id="examples-1"><a class="header" href="#examples-1">Examples</a></h4>
 <p>This is an example <code>values.yaml</code> file that would deploy the <a href="https://github.com/dani-garcia/vaultwarden">vaultwarden</a>
-application. For more deployment examples, check out the <a href="https://github.com/bjw-s/helm-charts/tree/main/examples/"><code>examples</code> folder</a>.</p>
+application. For more deployment examples, check out the <a href="https://github.com/TomRoush/helm-charts/tree/main/examples/"><code>examples</code> folder</a>.</p>
 <pre><code class="language-yaml">image:
   # -- image repository
   repository: vaultwarden/server
@@ -614,7 +614,7 @@ persistence:
 </code></pre>
 <h2 id="source-code-1"><a class="header" href="#source-code-1">Source code</a></h2>
 <p>The source code for the app template chart can be found
-<a href="https://github.com/bjw-s/helm-charts/tree/main/charts/other/app-template">here</a>.</p>
+<a href="https://github.com/TomRoush/helm-charts/tree/main/charts/other/app-template">here</a>.</p>
 
                     </main>
 
